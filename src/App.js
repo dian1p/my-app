@@ -7,6 +7,10 @@ function App() {
   return (
     <div>
       <AppWeather />
+      <p class="source"> 
+        <a href="https://github.com/dian1p/my-app" target="blank">Open Source Code </a>
+         by Dian
+      </p>
     </div>
   );
 }
