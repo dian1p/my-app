@@ -1,17 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -24,15 +10,30 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
+@keyframes WeatherIcon {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  border: 1px outset #add8e6;
+  background-color: #add8e6;
+  padding: 20px;
+  height: 350px;
+  width: 600px;
+  margin: 50px auto;
+}
+.handle-submit {
+  font-size: 50px;
+}
+.list {
+  list-style: none;
+  margin-left: -20px;
 }
